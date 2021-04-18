@@ -65,12 +65,12 @@ inquirer.prompt(
     git,
     email
 })=>{
-    const template = ${title}
-    [Description](#description)
-    [Installation](#installation)
-    [Usage](#usage)
-    [Credits](#credits)
-    [License](#license)
+    const template =`# ${title}
+    *[Description](#description)
+    *[Installation](#installation)
+    *[Usage](#usage)
+    *[Credits](#credits)
+    *[License](#license)
     #Description
     ${description}
     #Installation
@@ -83,15 +83,15 @@ inquirer.prompt(
     ${License}
 
     #Contact
-    Github: ${git}
-    Email: ${email};
+    *Github: ${git}
+    *Email: ${email}`;
 
     createNewFile(title, template);
 }
 );
 
 function createNewFile(fileName, template){
-    fs.writeFile(./${fileName.toLowerCase().split('').join('')}.nd , data,(err) => {
+    fs.writeFile(`./${fileName.toLowerCase().split('').join('')}.nd`, data,(err) => {
         if(err){
             console.log(err)
         }
