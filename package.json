@@ -1,9 +1,11 @@
 {
   "name": "readme",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1 align=\"center\">Welcome to readme 👋</h1> <p>   <a href=\"https://www.npmjs.com/package/readme\" target=\"_blank\">     <img alt=\"Version\" src=\"https://img.shields.io/npm/v/readme.svg\">   </a>   <a href=\"https://github.com/Aubsma/README#readme\" target=\"_blank\">     <img alt=\"Documentation\" src=\"https://img.shields.io/badge/documentation-yes-brightgreen.svg\" />   </a>   <a href=\"https://github.com/Aubsma/README/graphs/commit-activity\" target=\"_blank\">     <img alt=\"Maintenance\" src=\"https://img.shields.io/badge/Maintained%3F-yes-green.svg\" />   </a>   <a href=\"https://github.com/Aubsma/README/blob/master/LICENSE\" target=\"_blank\">     <img alt=\"License: ISC\" src=\"https://img.shields.io/github/license/Aubsma/readme\" />   </a> </p>",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
