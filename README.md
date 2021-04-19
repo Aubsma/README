@@ -16,18 +16,12 @@
 
 ### 🏠 [Homepage](https://github.com/Aubsma/README#readme)
 
-### ✨ [Demo](creating)
+### ✨ [Demo](https://drive.google.com/file/d/1sx2aHFguZJTpqHTqyYGqGvC5MrZk34bi/view)
 
 ## Install
 
 ```sh
 npm install
-```
-
-## Run tests
-
-```sh
-npm run test
 ```
 
 ## Author
