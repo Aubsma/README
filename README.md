@@ -12,7 +12,7 @@
   </a>
 </p>
 
-> Create a README Generator to ease the process of creating a README. You do this all in the terminal.
+> Create a README Generator to ease the process of creating a README all through your terminal.
 
 ### 🏠 [Homepage](https://github.com/Aubsma/README#readme)
 
@@ -33,7 +33,7 @@ npm install
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Aubsma/README/issues). You can also take a look at the [contributing guide](https://github.com/Aubsma/README/blob/master/CONTRIBUTING.md).
+Aubrey Mark
 
 ## Show your support
 
