@@ -21,7 +21,7 @@
 ## Install
 
 ```sh
-npm install
+npm install, npm init, node readme.js
 ```
 
 ## Author
