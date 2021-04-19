@@ -9,13 +9,13 @@ inquirer.prompt(
             type: 'input',
             message: 'What is the Title of the project?',
             name: 'title',
-            validate: (value)=>{ if(vale){return true} else {return 'I need a Title to continue'}},
+            // validate: (value)=>{ if(vale){return true} else {return 'I need a Title to continue'}},
         },
         {
             type: 'input',
             message: 'Description of Project:',
             name: 'description',
-            validate: (value)=>{ if(vale){return true} else {return 'I need a Description to continue'}},
+            // validate: (value)=>{ if(vale){return true} else {return 'I need a Description to continue'}},
         },
         {
             type: 'input',
@@ -26,32 +26,32 @@ inquirer.prompt(
             type: 'input',
             message: 'How To Use this app:',
             name: 'Usage',
-            validate: (value)=>{ if(vale){return true} else {return 'I need a value to continue'}},
+            // validate: (value)=>{ if(vale){return true} else {return 'I need a value to continue'}},
         },
         {
             type: 'input',
             message: 'Contributors:',
             name: 'Conributors',
-            validate: (value)=>{ if(vale){return true} else {return 'I need at least you listed to continue'}},
+            // validate: (value)=>{ if(vale){return true} else {return 'I need at least you listed to continue'}},
         },
         {
             type: 'list',
             message: 'What license(s) did you use?',
             name: 'License',
             choices: [ 'The MIT License', 'The GPL License', 'Apache License', 'GNU License', 'N/A'],
-            validate: (value)=>{ if(vale){return true} else {return 'I need a value to continue'}},
+            // validate: (value)=>{ if(vale){return true} else {return 'I need a value to continue'}},
         },
         {
             type: 'input',
             message: 'Github username:',
             name: 'git',
-            validate: (value)=>{ if(vale){return true} else {return 'I need your github to continue'}},
+            // validate: (value)=>{ if(vale){return true} else {return 'I need your github to continue'}},
         },        
         {
             type: 'input',
             message: 'E-mail:',
             name: 'email',
-            validate: (value)=>{ if(vale){return true} else {return 'I need an email to continue'}},
+            // validate: (value)=>{ if(vale){return true} else {return 'I need an email to continue'}},
         } 
         
     ]
@@ -90,7 +90,7 @@ inquirer.prompt(
 }
 );
 
-function createNewFile(fileName, template){
+function createNewFile(fileName, data){
     fs.writeFile(`./${fileName.toLowerCase().split('').join('')}.nd`, data,(err) => {
         if(err){
             console.log(err)

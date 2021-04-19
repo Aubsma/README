@@ -1,0 +1,20 @@
+# README Generator
+    *[Description](#description)
+    *[Installation](#installation)
+    *[Usage](#usage)
+    *[Credits](#credits)
+    *[License](#license)
+    #Description
+    To create a README with ease through the terminal.
+    #Installation
+    npm i, npm init, node readme.js
+    #Usage
+    Run the install instructions and the questions will appear in the terminal
+    #Contributors
+    undefined
+    #License
+    The MIT License
+
+    #Contact
+    *Github: Aubsma
+    *Email: aubsmark@gmail.com
