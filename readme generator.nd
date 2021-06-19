@@ -5,11 +5,11 @@
     *[Credits](#credits)
     *[License](#license)
     #Description
-    To create a README with ease through the terminal.
+    To create a Readme for any project while in the terminal, but with more ease
     #Installation
-    npm i, npm init, node readme.js
+    npm init, npm i
     #Usage
-    Run the install instructions and the questions will appear in the terminal
+    Run node readme.js
     #Contributors
     undefined
     #License

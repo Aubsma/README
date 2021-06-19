@@ -66,23 +66,23 @@ inquirer.prompt(
     email
 })=>{
     const template =`# ${title}
-    *[Description](#description)
-    *[Installation](#installation)
-    *[Usage](#usage)
-    *[Credits](#credits)
-    *[License](#license)
-    #Description
+    *[Description](# description)
+    *[Installation](# installation)
+    *[Usage](# usage)
+    *[Credits](# credits)
+    *[License](# license)
+    # Description
     ${description}
-    #Installation
+    # Installation
     ${installation}
-    #Usage
+    # Usage
     ${Usage}
-    #Contributors
+    # Contributors
     ${Contributors}
-    #License
+    # License
     ${License}
 
-    #Contact
+    # Contact
     *Github: ${git}
     *Email: ${email}`;
 
@@ -90,8 +90,8 @@ inquirer.prompt(
 }
 );
 
-function createNewFile(fileName, data){
-    fs.writeFile(`./${fileName.toLowerCase().split('').join('')}.nd`, data,(err) => {
+function createNewFile(title, data){
+    fs.writeFile(`./${title.toLowerCase().split('').join('')}.md`, data,(err) => {
         if(err){
             console.log(err)
         }
